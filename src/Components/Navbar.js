@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Navbar = () => {
   return (
@@ -12,8 +13,9 @@ const Navbar = () => {
         <li>Chinese Food</li>
         <li>French Food</li>
       </ul>
-
+      <div><FontAwesomeIcon icon="fa-solid fa-cart-shopping" /></div>
       <div>
+      
       <button className='button'>My Orders</button>
       </div>
 
