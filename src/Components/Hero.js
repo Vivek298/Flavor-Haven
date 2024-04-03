@@ -12,11 +12,11 @@ const Hero = () => {
      <div>
      <img src="breakfast.png" alt="Breakfast" className='foodimg'/>
      </div>
-     <div className='menu'>
-       <div className='button1'>button 1</div>
-       <div className='button2'>helllo</div>
-       <div className='button3'>helllo</div>
-       <div className='button4'>helllo</div>
+     <div className='M-buttons'>
+       <div className='button1'>BREAKFAST</div>
+       <div className='button2'>LUNCH</div>
+       <div className='button3'>DINNER</div>
+       <div className='button4'>SNACKS</div>
      </div>
     </div>
   )

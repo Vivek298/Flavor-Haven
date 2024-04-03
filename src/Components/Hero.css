@@ -28,19 +28,24 @@
 }
 
 
-.menu > div {
+.M-buttons > div {
   margin-top: 15px; /* Adjust the space between buttons as needed */
   border-radius: 158px 0px 0px 158px / 145px 0px 0px 145px;
-  background: goldenrod;
+  background: #fc6400;
   height: 80px;
   width: 300px;
+  padding: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.menu{
+.M-buttons{
   margin-top: 170px;
+  font-size: 40px;
+  text-align: center;
+  
 }
 
-.menu > div:hover {
+.M-buttons> div:hover {
   
   transform: translateX(-150px); /* Move buttons to the left */
   
