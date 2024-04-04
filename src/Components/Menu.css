@@ -1,10 +1,16 @@
 
-.container h2{
+.menu-container h2{
   margin-top: 60px;
   margin-left: 250px;
   margin-bottom: 40px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
+  border-bottom: 4px solid #fc6400;
+  
+}
+
+.menu-container{
+  margin-top: 200px;
 }
 .menu-items {
   display: flex;

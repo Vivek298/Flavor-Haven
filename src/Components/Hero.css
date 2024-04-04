@@ -1,10 +1,11 @@
 .Hero{
   display: flex;
+  background: white;
 }
 
 .Heading{
   font-size: 100px;
-  background: #d7d5d3;
+  background: white;
   width: 32%;
   margin-top: 170px;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -14,7 +15,7 @@
 }
 
 .Sub-heading{
-  background: #d7d5d3;
+  background: white ;
   width: 500px;
   text-align: right;
   font-size: 25px;
@@ -36,6 +37,9 @@
   width: 300px;
   padding: 20px;
   font-family:Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  
+  
 }
 
 .M-buttons{
@@ -43,11 +47,17 @@
   font-size: 40px;
   text-align: center;
   
+  
 }
 
-.M-buttons> div:hover {
+.M-buttons> div:hover  {
   
   transform: translateX(-150px); /* Move buttons to the left */
   
+}
+
+.rotate {
+  transform: rotate(360deg);
+  transition: transform 1s ease; /* Adding transition for smooth animation */
 }
 

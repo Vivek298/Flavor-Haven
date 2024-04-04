@@ -4,7 +4,7 @@ import './Menu.css'; // Import your CSS file for styling
 const Menu = () => {
   return (
     <section className="menu-section">
-      <div className="container">
+      <div className="menu-container">
         <h2>SPECIAL MENU</h2>
         <div className="menu-items">
 
